@@ -15,7 +15,7 @@ namespace SWARM.Server.Data
         {
             base.OnModelCreating(builder);
 
-            builder.HasDefaultSchema("C##")
+            builder.HasDefaultSchema("C##YUFAN")
                 .HasAnnotation("Relational:Collation", "USING_NLS_COMP");
 
             builder.ToUpperCaseTables();
